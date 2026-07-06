@@ -1,6 +1,6 @@
-# SentinelIPS - Kali Linux Edition
+# SentinelIDS - Kali Linux Edition
 
-SentinelIPS is an advanced local Network Packet Analyzer and Intrusion Detection/Prevention System (IDS/IPS) built in Python. Designed specifically for Kali Linux, it provides real-time traffic monitoring, stateful forensic analysis, and active threat mitigation using NetfilterQueue and Scapy.
+SentinelIDS is an advanced local Network Packet Analyzer and Intrusion Detection/Prevention System (IDS/IPS) built in Python. Designed specifically for Kali Linux, it provides real-time traffic monitoring, stateful forensic analysis, and active threat mitigation using NetfilterQueue and Scapy.
 
 ## Features
 
@@ -20,7 +20,7 @@ SentinelIPS is an advanced local Network Packet Analyzer and Intrusion Detection
   * `sniffer.py`: Handles passive packet capture and PCAP data management.
 * `config/`
   * `blacklist.txt`: Local threat intelligence list of IPs to automatically drop.
-  * `whitelist.txt`: Trusted IPs that bypass the IPS engine.
+  * `whitelist.txt`: Trusted IPs that bypass the IDS engine.
 * `setup_network.sh`: Bash script to install system dependencies and configure `iptables` routing rules.
 * `requirements.txt`: Python package dependencies.
 
